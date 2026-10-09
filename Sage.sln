@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sage", "Sage.csproj", "{AB874F64-CB1D-06F7-047C-5FD6A7203B5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB874F64-CB1D-06F7-047C-5FD6A7203B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB874F64-CB1D-06F7-047C-5FD6A7203B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB874F64-CB1D-06F7-047C-5FD6A7203B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB874F64-CB1D-06F7-047C-5FD6A7203B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C34A66B2-917C-48F0-AAFE-75B293520F56}
+	EndGlobalSection
+EndGlobal
