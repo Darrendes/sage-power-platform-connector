@@ -58,7 +58,9 @@ dotnet run
 Generate a random secret locally; do not reuse a production or company key. For example, PowerShell can generate one with:
 
 ```powershell
-[Convert]::ToBase64String([Security.Cryptography.RandomNumberGenerator]::GetBytes(48))
+$bytes = New-Object byte[] 32
+[System.Security.Cryptography.RandomNumberGenerator]::Create().GetBytes($bytes)
+$env:Jwt__Key = [Convert]::ToBase64String($bytes)
 ```
 
 The connection string must point to a test database with the expected schema. This repository does not include a database backup or real ERP data. Some endpoints require ERP tables and columns that are not available in a clean SQL Server installation.
